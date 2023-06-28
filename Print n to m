@@ -6,7 +6,7 @@ printf("enter m and n values:");
 scanf("%d %d",&m,&n);
 for(i=m;i<=n;i++)
 {
-printf("%d\t",i);
+printf("%d\t\a",i);
 }
 }
 
