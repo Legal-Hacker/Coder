@@ -1,0 +1,14 @@
+#include<stdio.h>
+
+int main()
+{
+    int m;
+    printf("\nEnter marks");
+    scanf("\n%d",&m);
+    (m<0||m>100)? printf("\nDistinction"):
+    (m>=75 && m<=100)? printf("\nFirst"):
+    (m>=45 && m<60)? printf("\nSecond"):
+    (m>=30 && m<45)? printf("\nThird"):
+    printf("\nFail");
+    return 0;
+}
