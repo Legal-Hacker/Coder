@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+void main()
+
+{    
+    double a=100.895;
+    printf("%lf",a);
+    getchar();
+}
