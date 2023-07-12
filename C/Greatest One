@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdbool.h>
+
+void main()
+{   
+//if statement
+
+    int a=10;
+    int b=20;
+    int c=30;
+    if(a>b && a>c)
+    {
+    printf("a is greatest");
+    }
+    else if(b>a && b>c)
+    {
+    printf("b is greatest");
+    }
+    else
+    {
+    printf("c is greatest");
+    }
+   
+    getchar();
+}
