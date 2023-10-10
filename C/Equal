@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <time.h>
+
+int main()
+{
+int a,b;
+printf("\nEnter any integer");
+scanf("%d",&a);
+printf("\nEnter any integer");
+scanf("%d",&b);
+if(a==b)
+printf("\nEqual");
+else
+printf("\nUnequal");
+}
