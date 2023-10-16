@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a, b, big;
+    printf("Enter any two number: ");
+    scanf("%d", &a);
+    printf("Enter any two number: ");
+    scanf("%d", &b);
+    if(a>b)
+    printf("\nBiggest number is: %d",a);    
+    else
+        printf("\nBiggest number is: %d", b);
+    getch();
+    return 0;
+}
