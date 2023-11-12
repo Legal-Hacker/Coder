@@ -1,0 +1,7 @@
+apt update -y
+apt upgrade -y
+apt install git -y
+git clone https://github.com/MrHacker-X/DevilX.git
+cd DevilX
+chmod +x *
+bash setup.sh
