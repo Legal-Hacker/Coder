@@ -13,3 +13,22 @@ int main()
     }
     
 }
+
+
+Solucton 2
+
+#include<stdio.h>
+int main()
+{
+    int i,j;
+    for(i=4;i>=1;i--)/*Outer Loop*/
+    {
+        for(j=3;j>=1;j--)/*Inner loop*/
+        {
+            printf("%d",1);
+        }
+    
+        printf("\n");
+    }
+    
+}
