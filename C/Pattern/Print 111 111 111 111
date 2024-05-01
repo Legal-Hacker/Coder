@@ -1,13 +1,15 @@
 #include<stdio.h>
-void main ()
+int main()
 {
-int i,j;
-for(i=1;i<=4;i++)/*Outer loop*/
-{
-for(j=1;j<=3;j++)/*inner loop*/
-{
-print("%d",1)
-}
-printf("\n")
-}
+    int i,j;
+    for(i=1;i<=4;i++)/*Outer Loop*/
+    {
+        for(j=1;j<=3;j++)/*Inner loop*/
+        {
+            printf("%d",1);
+        }
+    
+        printf("\n");
+    }
+    
 }
