@@ -1,0 +1,22 @@
+// Write a code to cheak euqal or not equal 
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int a,b;
+    
+        cout<<"Enter First integer=";
+        cin>>a;
+        cout<<"Enter Second integer=";
+        cin>>b;
+    
+    if(a=b)
+        
+        cout  << " Equal";
+        else
+        cout <<"Not Equal";
+        
+        return 0;
+}
