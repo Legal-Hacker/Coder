@@ -1,6 +1,17 @@
 
 class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("Hello World");//println for next new line
+        System.out.print("Hello World\n");//2nd way for next new line
+        System.out.print("Hello World\njaipur");// 3rd way to print multiple sentences
+        System.out.print("Hello World");
     }
 }
+
+
+
+Output
+Hello World
+Hello World
+Hello World
+jaipur
