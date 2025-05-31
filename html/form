@@ -1,0 +1,53 @@
+
+<!doctype html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Form </title>
+  
+       <h1 style="text-align: center";> Membership Form </h1>
+       <form action="post">
+         <div>
+           <label for="Full Name">Full Name</label>
+           <input type="text" name="FullName" id="Full Name" placeholder="Full Name"/>
+         </div>
+         <div>
+           <label for="Place Birth">Place Birth</label>
+           <input type="text" name="Place Birth" id="Place Birth" placeholder="Place Birth"/>
+         </div>
+         <div>
+           <label for="Date of Birth">Date of Birth</label>
+           <input type="date" name="Date of Birth" id="Date of Birth" placeholder="Date of Birth"/>
+         </div>
+         <div>
+           <label for="Full Address">Full Address</label>
+           <input type="text" name="Full Address" id="Full Address" placeholder="Full Address"/>
+         </div>
+         <div>
+           <label for="Nationality">Nationality</label>
+           <input type="text" name="Nationality" id="Nationality" />
+         </div>
+         <div>
+           <label for="Gender">Gender</label>
+           <input type="radio" name="Male" id="Male" name="Gender"/>
+           <label for="Male">Male</label>
+           <input type="radio" name="Female" id="Female" name="Gender"/>
+           <label for="Female">Female</label>
+         </div>
+         
+         <div>
+           <label for="Email id">Email id</label>
+           <input type="email id" name="Email id" id="Email id" placeholder="Email id" />
+         </div>
+         <div>
+           <label for="Number">number</label>
+           <input type="Number" name="Phone No" id="Phone No" placeholder="Phone No" />
+         </div>
+       </form>
+      
+  
+  </head>
+  <body>
+    
+  </body>
+</html>
