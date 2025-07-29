@@ -1,0 +1,22 @@
+*{
+  margin-right: 10px;
+  padding: 0px;
+}
+.toparea{
+  background :#F48000;
+  padding-top:5px;
+  padding-bottom: 8px;
+  text-align: center;
+  font-size:20px;
+}
+header{
+  text-align: center;
+  font-size: 25px;  
+}
+button{
+  align-items: center;
+}
+body{
+  background-color: pink;
+  font-family: times new roman;
+}
