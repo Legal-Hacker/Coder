@@ -1,0 +1,14 @@
+Linux me apna ip hide karne ke liye proxy setup karege
+terminal open karege (sudo su) se root access lege
+apt update karege
+apt install tor 
+apt install proxychains 
+ab ekse baad proxy file me kuch changes karege jiske bina proxy work nahi karega esliye terminal se exit then 
+Go to file system --> etc --> proxychains and proxychains4 ab blank area me right click krke open with root karege phir
+proxychains search karke usse open with mousepag karege configuration file me No-10 me #dynamic_chain se hash remove karege aur No-18 me strict_chain me s se pahale hash add karege
+same proxychains4 me karege
+service tor start 
+servicr tor status ye chaek karne ke liye ki tor start hua hai ya nahi hoga to green show hoga nhi hua to wapis se (service tor stop) karke start karna hoga
+then root se exit lege (exit) se
+proxychains firefox
+
